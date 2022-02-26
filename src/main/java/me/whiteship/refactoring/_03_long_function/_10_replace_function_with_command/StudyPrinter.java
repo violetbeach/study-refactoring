@@ -32,8 +32,8 @@ public class StudyPrinter {
     }
 
     private String getMarkdownForParticipant(Participant participant) {
-        return String.format("| %s %s | %.2f%% |\n", participant.username(), checkMark(p, this.totalNumberOfEvents),
-                p.getRate(this.totalNumberOfEvents));
+        return String.format("| %s %s | %.2f%% |\n", participant.username(), checkMark(participant, this.totalNumberOfEvents),
+                participant.getRate(this.totalNumberOfEvents));
     }
 
     /**
