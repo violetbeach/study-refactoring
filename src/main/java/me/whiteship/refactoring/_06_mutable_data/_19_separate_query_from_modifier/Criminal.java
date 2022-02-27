@@ -8,11 +8,23 @@ public class Criminal {
         for (Person p : people) {
             if (p.getName().equals("Don")) {
                 setOffAlarms();
-                return "Don";
             }
 
             if (p.getName().equals("John")) {
                 setOffAlarms();
+            }
+        }
+
+        return "";
+    }
+
+    public String findMiscreant(List<Person> people) {
+        for (Person p : people) {
+            if (p.getName().equals("Don")) {
+                return "Don";
+            }
+
+            if (p.getName().equals("John")) {
                 return "John";
             }
         }
