@@ -8,7 +8,7 @@ import java.util.List;
 public class CvsPrinter extends StudyPrinter {
 
     public CvsPrinter(int totalNumberOfEvents, List<Participant> participants, PrinterMode printerMode) {
-        super(totalNumberOfEvents, participants, printerMode);
+        super(totalNumberOfEvents, participants);
     }
 
     @Override

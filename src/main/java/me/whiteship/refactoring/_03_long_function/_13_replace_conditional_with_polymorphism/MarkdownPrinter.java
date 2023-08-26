@@ -7,8 +7,8 @@ import java.util.List;
 
 public class MarkdownPrinter extends StudyPrinter{
 
-    public MarkdownPrinter(int totalNumberOfEvents, List<Participant> participants, PrinterMode printerMode) {
-        super(totalNumberOfEvents, participants, printerMode);
+    public MarkdownPrinter(int totalNumberOfEvents, List<Participant> participants) {
+        super(totalNumberOfEvents, participants);
     }
 
     @Override

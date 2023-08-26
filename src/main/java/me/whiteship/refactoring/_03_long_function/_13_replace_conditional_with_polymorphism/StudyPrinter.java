@@ -11,7 +11,7 @@ public abstract class StudyPrinter {
     protected int totalNumberOfEvents;
     protected List<Participant> participants;
 
-    public StudyPrinter(int totalNumberOfEvents, List<Participant> participants, PrinterMode printerMode) {
+    public StudyPrinter(int totalNumberOfEvents, List<Participant> participants) {
         this.totalNumberOfEvents = totalNumberOfEvents;
         this.participants = participants;
         this.participants.sort(Comparator.comparing(Participant::username));

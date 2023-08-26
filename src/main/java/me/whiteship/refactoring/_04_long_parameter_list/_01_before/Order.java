@@ -10,7 +10,7 @@ public class Order {
         this.quantity = quantity;
         this.itemPrice = itemPrice;
     }
-b 
+
     public double finalPrice() {
         double basePrice = this.quantity * this.itemPrice;
         int discountLevel = discountLevel();

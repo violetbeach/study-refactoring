@@ -10,7 +10,7 @@ public class ProductionPlan {
         this.adjustments.add(adjustment);
     }
 
-    private double calculatedProduction() {
+    public double calculatedProduction() {
         return this.adjustments.stream().mapToDouble(Double::valueOf).sum();
     }
 }

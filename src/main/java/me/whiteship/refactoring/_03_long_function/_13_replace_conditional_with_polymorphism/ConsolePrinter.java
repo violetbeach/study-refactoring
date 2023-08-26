@@ -6,7 +6,7 @@ import java.util.List;
 public class ConsolePrinter extends StudyPrinter {
 
     public ConsolePrinter(int totalNumberOfEvents, List<Participant> participants, PrinterMode printerMode) {
-        super(totalNumberOfEvents, participants, printerMode);
+        super(totalNumberOfEvents, participants);
     }
 
     @Override
