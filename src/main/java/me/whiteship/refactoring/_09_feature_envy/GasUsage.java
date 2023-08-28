@@ -18,4 +18,8 @@ public class GasUsage {
     public double getPricePerUnit() {
         return pricePerUnit;
     }
+
+	private double getGasBill() {
+		return this.getAmount() * this.getPricePerUnit();
+	}
 }
